@@ -1,4 +1,4 @@
-os.execute("pastebin get -f 3i9nBiyp /buttonAPI.lua")
-os.execute("pastebin get -f N6dnKyyM /reactor.lua")
+os.execute("wget https://github.com/Captain-Ozark/rc-controller/blob/master/ButtonAPI.lua")
+os.execute("wget https://github.com/Captain-Ozark/rc-controller/blob/master/RC_App.lua")
 package.loaded.buttonAPI = nil
-os.execute("/reactor.lua")
+os.execute("/RC_App.lua")
