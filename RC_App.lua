@@ -53,7 +53,6 @@ function setInfos()
   infos["fuel"] = { x = 92, y = 31, width = 73, height= 1, title = "Usage: ", unit = " Mb/t"}
   infos["fuel_left"] = { x = 92, y = 32, width = 73, height= 1, title = "Fuel Remaining: ", unit = " Mb/t"}
   infos["fuel_cap"] = { x = 92, y = 33, width = 73, height= 1, title = "Fuel Capacity:  ", unit = " Mb/t"}
-  infos["fuel_left"]/infos["fuel_cap"] = { x = 92, y = 30, width = 73, height= 1, title = "Fuel Level: ", unit = "%"}
 end
  
 function setButtons()
