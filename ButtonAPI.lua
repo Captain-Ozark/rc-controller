@@ -64,6 +64,4 @@ function API.checkxy(_, _, x, y, _, _)
   end
   return false
 end
- 
- 
 return API
